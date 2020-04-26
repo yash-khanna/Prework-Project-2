@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,600;0,700;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    background-color: white;
+}
+
+#real-friends h2,
+form {
+    padding: 10px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.img {
+    width: 25px;
+    height: 25px;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#nav ul li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#real-friends {
+    background-color: yellow;
+    color: black;
+    height: 400px;
+    padding: 1em;
+}
+
+#real-friends div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bitmoji {
+    height: 200px;
+    width: 250px;
+}
+
+.names {
+    height: 50px;
+    width: 300px;
+}
+
+.input-button {
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-radius: 3em;
+    padding: 8px;
+    font-weight: 700;
+}
+
+#home-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    padding: 1em;
+}
+
+#home-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#home-container div ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 20px;
+    font-weight: 100;
+}
+
+#home-container div ul li {
+    list-style: none;
+}
+
+#foot {
+    background-color: black;
+    height: 40px;
+    color: white;
+}
+
+#foot div {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+#language {
+    display: flex;
+    width: 100%;
+    margin-left: 25px;
+    padding-bottom: 2mm;
+}
